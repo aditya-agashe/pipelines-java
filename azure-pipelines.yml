@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: Azure-CICD-AgentPool
 
 steps:
 - task: Maven@3
